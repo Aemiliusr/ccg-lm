@@ -1,0 +1,168 @@
+[
+  [
+    "John runs",
+    {
+      "node": "S",
+      "children": [
+        {
+          "node": "NP",
+          "children": [
+            "John"
+          ]
+        },
+        {
+          "node": "S\\NP",
+          "children": [
+            "runs"
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    "Mary likes the saw",
+    {
+      "node": "S",
+      "children": [
+        {
+          "node": "NP",
+          "children": [
+            "Mary"
+          ]
+        },
+        {
+          "node": "S\\NP",
+          "children": [
+            {
+              "node": "(S\\NP/NP)",
+              "children": [
+                "likes"
+              ]
+            },
+            {
+              "node": "NP",
+              "children": [
+                {
+                  "node": "(NP/N)",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "node": "N",
+                  "children": [
+                    "saw"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    "Mary likes John",
+    {
+      "node": "S",
+      "children": [
+        {
+          "node": "NP",
+          "children": [
+            "Mary"
+          ]
+        },
+        {
+          "node": "S\\NP",
+          "children": [
+            {
+              "node": "(S\\NP/NP)",
+              "children": [
+                "likes"
+              ]
+            },
+            {
+              "node": "NP",
+              "children": [
+                "John"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    "Mary saw the dog",
+    {
+      "node": "S",
+      "children": [
+        {
+          "node": "NP",
+          "children": [
+            "Mary"
+          ]
+        },
+        {
+          "node": "S\\NP",
+          "children": [
+            {
+              "node": "(S\\NP/NP)",
+              "children": [
+                "saw"
+              ]
+            },
+            {
+              "node": "NP",
+              "children": [
+                {
+                  "node": "(NP/N)",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "node": "N",
+                  "children": [
+                    "dog"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    "John likes Mary",
+    {
+      "node": "S",
+      "children": [
+        {
+          "node": "NP",
+          "children": [
+            "John"
+          ]
+        },
+        {
+          "node": "S\\NP",
+          "children": [
+            {
+              "node": "(S\\NP/NP)",
+              "children": [
+                "likes"
+              ]
+            },
+            {
+              "node": "NP",
+              "children": [
+                "Mary"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+]
